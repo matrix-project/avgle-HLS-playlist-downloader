@@ -36,7 +36,7 @@
 	
 	function downloadPlaylist(playlist, filename)
 	{
-// 		
+
 		let str = document.location.toString()
   		let index = str .lastIndexOf("\/")
   		let filename = str.substring(index + 1, str .length) +".m3u8"
